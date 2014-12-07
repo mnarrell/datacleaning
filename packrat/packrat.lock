@@ -1,0 +1,81 @@
+PackratFormat: 1.4
+PackratVersion: 0.4.1.8
+RVersion: 3.1.2
+Repos: CRAN=http://rweb.quant.ku.edu/cran
+
+Package: BH
+Source: CRAN
+Version: 1.54.0-5
+
+Package: DBI
+Source: CRAN
+Version: 0.3.1
+Hash: 3a9e85b26ec3ab570266bccb3f9de055
+
+Package: R6
+Source: CRAN
+Version: 2.0.1
+Hash: 9a3ac4e5fd8059af0fc5156bcb019bbc
+
+Package: Rcpp
+Source: CRAN
+Version: 0.11.3
+Hash: d9cc0a13885961b2d004cf73b0fb68dd
+
+Package: assertthat
+Source: CRAN
+Version: 0.1
+Hash: 4b419cfdc33a3019a7f3c6f0cdea6c38
+
+Package: dplyr
+Source: CRAN
+Version: 0.3.0.2
+Requires: BH, DBI, R6, Rcpp, assertthat, lazyeval, magrittr
+Hash: 8c0821444e12d75a6167f47c9d090cc7
+
+Package: lazyeval
+Source: CRAN
+Version: 0.1.9
+Hash: 2953778d951973e2889641c06275ecf3
+
+Package: magrittr
+Source: CRAN
+Version: 1.5
+Hash: 38d492cf072bc9f3c73bda2aee3d0e23
+
+Package: packrat
+Source: github
+Version: 0.4.1.8
+Hash: ee57b7e7ba891d23079b12f1ff5106d0db0594e5
+GithubRepo: packrat
+GithubUsername: rstudio
+GithubRef: v0.98.1000
+GithubSha1: ee57b7e7ba891d23079b12f1ff5106d0db0594e5
+
+Package: plyr
+Source: CRAN
+Version: 1.8.1
+Requires: Rcpp
+Hash: 6a287219196e18bc6261dc11b41b1ca0
+
+Package: reshape2
+Source: CRAN
+Version: 1.4.1
+Requires: Rcpp, plyr, stringr
+Hash: 21b63c5bb8ff2ef850ea40a4cb21d250
+
+Package: stringi
+Source: CRAN
+Version: 0.3-1
+Hash: 6795f234a744d2458b1f43fd482c0f5a
+
+Package: stringr
+Source: CRAN
+Version: 0.6.2
+Hash: cdde0cfa0f52cffeaca23a11a3899779
+
+Package: tidyr
+Source: CRAN
+Version: 0.2.0
+Requires: dplyr, lazyeval, reshape2, stringi
+Hash: 3b379415e9e88d4f559b380819893304

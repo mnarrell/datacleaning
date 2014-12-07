@@ -1,11 +1,11 @@
-# History files
-.Rhistory
-
-# Example code in package build process
+UCI HAR Dataset
+output
+packrat/lib*/
+packrat/src/
 *-Ex.R
-
-# R data files from past sessions
+.Rhistory
 .Rdata
+.Rproj.user
+code_book.html
+README.html
 
-# RStudio files
-.Rproj.user/
