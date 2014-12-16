@@ -65,4 +65,4 @@ rm(n)
 if(!file.exists("./output")) {
   dir.create("./output")
 }
-write.csv(merged, "./output/merged.csv", fileEncoding = "ASCII", row.names = FALSE) 
+write.table(merged, "./output/merged.txt", fileEncoding = "ASCII", row.names = FALSE) 

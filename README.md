@@ -10,6 +10,6 @@ The run_analysis.R script may be run:
     
     source("run_analysis.R")
 
-This will download the source data set, perform the tidying operations as described in the Code Book, and produce the output as a CSV file (./output/merged.csv).
+This will download the source data set, perform the tidying operations as described in the Code Book, and write the merged data frame table to a file. (./output/merged.txt)
 
 Please examine the Code Book and the comments in the R script for detailed information.

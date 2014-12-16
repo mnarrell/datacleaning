@@ -34,7 +34,7 @@ merged         | The merged training and test data frame table
 1. The merged data frame table's variables are selected such that the subject and activity columns are first, followed by all columns who's names contain either **Mean** or **Std**.
 1. The data frame table is arranged and grouped by subject and activity.
 1. The average of each of the **Mean** and **Std** columns is calculated over the subject/activity groupings.
-1. The merged data frame table is written to **./output/merged.csv** as an ASCII encoded file.  The row names are omitted as they duplicate the line numbers.
+1. The merged data frame table is written to **./output/merged.txt** as an ASCII encoded file.  The row names are omitted as they duplicate the line numbers.
 
 ***
 #### Variables
